@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Horta_V2",
+    "slug": "Horta_V2",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2F825F",
+      "permissions": [
+        "INTERNET"
+      ]
+      
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#66BF5E"
+      },
+      "package": "com.moraes.caio.Horta_V2"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6a34d1a6-b7f9-436c-9fd4-d42c09207b14"
+      }
+    }
+  }
+}
